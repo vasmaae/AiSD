@@ -1,6 +1,5 @@
 import Task1.*;
 import Task2.*;
-import Task3.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,7 +8,7 @@ public class Main {
 
     // АТД - стек, СД - двусвязный список
     public static void task1() {
-        WorkStack workStack = new WorkStack();
+        Stack workStack = new Stack();
 
         System.out.println("Стек пуст - " + workStack.isEmpty());
 
